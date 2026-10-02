@@ -1,0 +1,111 @@
+# =========================
+# Java / Maven
+# =========================
+
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# IntelliJ IDEA
+# =========================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+.history/
+
+# =========================
+# Eclipse
+# =========================
+
+.classpath
+.project
+.settings/
+.factorypath
+
+# =========================
+# Spring Boot / Application
+# =========================
+
+# Logs
+*.log
+logs/
+
+# Local configuration / secrets
+.env
+.env.*
+!.env.example
+
+# Local Spring profile configuration
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# =========================
+# Database / Local Data
+# =========================
+
+# H2
+*.mv.db
+*.trace.db
+data/
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# OS Generated Files
+# =========================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# =========================
+# Temporary / Generated Files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# =========================
+# Docker
+# =========================
+
+# Local Docker environment files
+docker-compose.override.yml
+
+# =========================
+# Coverage / Test Reports
+# =========================
+
+coverage/
+*.exec
+surefire-reports/
+failsafe-reports/
